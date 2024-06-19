@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cek Khodam</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1><b>Cek Khodam</b></h1>
+      <p id="intro-text">Gak Punya Khodam Gak Seru !!!</p>
+      <div class="mb-3" id="input-container">
+        <input
+          type="text"
+          id="nama"
+          class="form-control"
+          placeholder="Tulis nama kamu di sini"
+        />
+      </div>
+      <button
+        id="periksa"
+        class="btn btn-outline-info w-100 mb-3"
+        onclick="cekKhodam()"
+      >
+        Cek
+      </button>
+      <div id="loading" class="hidden">Memuat...</div>
+      <div id="hasil" class="hidden">
+        <div>
+          Khodam yang ada di dalam diri <strong id="nama-hasil"></strong>:
+        </div>
+        <div style="margin: 50px 0 50px 0"><strong id="khodam"></strong></div>
+      </div>
+      <button
+        id="ulang"
+        class="btn btn-danger w-100 hidden"
+        onclick="ulangCek()"
+      >
+        Ulangi
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
