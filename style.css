@@ -65,12 +65,21 @@ button {
 #ulang {
   margin-top: 20px;
 }
+.hidden {
+  display: none;
+}
+
 .instagram-link {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
+
 .instagram-text {
   color: white;
   margin-left: 8px;
+}
+
+.small-text {
+  font-size: 0.8em; /* Atur ukuran teks sesuai kebutuhan */
 }
