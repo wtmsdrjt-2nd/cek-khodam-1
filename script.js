@@ -7,7 +7,6 @@ function cekKhodam() {
   var periksa = document.getElementById("periksa");
   var ulang = document.getElementById("ulang");
   var inputContainer = document.getElementById("input-container");
-  var introText = document.getElementById("intro-text");
 
   if (nama === "") {
     alert("Silakan masukkan nama");
@@ -18,7 +17,6 @@ function cekKhodam() {
   hasil.classList.add("hidden");
   periksa.classList.add("hidden");
   inputContainer.classList.add("hidden");
-  introText.classList.add("hidden");
 
   setTimeout(function () {
     loading.classList.add("hidden");
@@ -69,12 +67,10 @@ function ulangCek() {
   var periksa = document.getElementById("periksa");
   var ulang = document.getElementById("ulang");
   var inputContainer = document.getElementById("input-container");
-  var introText = document.getElementById("intro-text");
 
   nama.value = "";
   hasil.classList.add("hidden");
   periksa.classList.remove("hidden");
   ulang.classList.add("hidden");
   inputContainer.classList.remove("hidden");
-  introText.classList.remove("hidden");
 }
