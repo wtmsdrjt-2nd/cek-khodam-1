@@ -57,7 +57,7 @@ function getKhodam(nama) {
     "Babi",
     "kipas cosmos",
     "PELO",
-    "Gak Onok Khodam e Matio ae",
+    "Gapunya Khodam, Mati Aja Sana",
   ];
   var index = nama.length % khodamList.length;
   return khodamList[index];
