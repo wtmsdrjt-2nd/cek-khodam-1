@@ -10,7 +10,7 @@ function cekKhodam() {
   var introText = document.getElementById("intro-text");
 
   if (nama === "") {
-    alert("Silakan masukkan nama.");
+    alert("Silakan masukkan nama");
     return;
   }
 
